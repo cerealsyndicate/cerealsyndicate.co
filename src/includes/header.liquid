@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="/" class="site-logo" aria-label="{{ site.title }}">
+      {% include "logo.svg" %}
+    </a>
+    <nav aria-label="Main">
+      <ul>
+        {%- for item in nav -%}
+        <li><a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.name }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </nav>
+  </div>
+</header>
