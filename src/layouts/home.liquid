@@ -7,27 +7,50 @@ layout: base
     <div class="hero-logo">
       {% include "logo.svg" %}
     </div>
-    <p class="hero-tagline">Cereal Syndicate builds software with care&mdash;simple, solid, and made to last.</p>
-    <p>
-      <a href="/contact/" class="button">Let's chat</a>
-    </p>
+    <p class="hero-tagline">Software built with care&mdash;simple, solid, and made to last.</p>
+    <div class="button-group">
+      <a href="#products" class="button">See what we're building</a>
+      <a href="/contact/" class="button button-outline">Get in touch</a>
+    </div>
   </div>
 </section>
 
-<section class="section" id="about">
+<section class="section section-glow" id="about">
   <div class="container">
-    <h2>About</h2>
-    <p>Cereal Syndicate is a software studio founded by a designer and developer with over 20 years of experience. We're focused on building thoughtful, well-crafted tools for families&mdash;simple, solid, and made to last.</p>
+    <span class="section-label">About</span>
+    <h2 class="section-heading">A studio focused on tools for families</h2>
+    <p>Cereal Syndicate is a software studio founded by a designer and developer with over 20 years of experience. We build thoughtful, well-crafted apps that put families first&mdash;no ads, no data harvesting, no dark patterns.</p>
   </div>
 </section>
 
 <section class="section" id="products">
   <div class="container">
-    <h2>What We're Building</h2>
+    <span class="section-label">Products</span>
+    <h2 class="section-heading">What we're building</h2>
     <div class="product-card">
-      <h3>Podcast Crunch</h3>
-      <p>A family podcast app where parents curate a library of shows and kids explore on their own. No ads, no algorithms, no rabbit holes&mdash;just great audio content in a safe, distraction-free environment.</p>
-      <p>Currently in early development.</p>
+      <div class="product-badge">
+        <span class="product-badge-dot"></span>
+        In Development
+      </div>
+      <h3 class="visually-hidden">Podcast Crunch</h3>
+      <div class="product-logo">
+        {% include "icon-podcast-crunch.svg" %}
+      </div>
+      <p>A podcast app that gives kids real autonomy&mdash;they browse, choose, and listen independently within a library their parents have hand-picked. No algorithms deciding what's next, no endless rabbit holes. Just kids in the driver's seat, inside boundaries you set.</p>
+      <div class="product-features">
+        <div class="product-feature">
+          <div class="product-feature-icon">{% include "icon-users.svg" %}</div>
+          <p><strong>Parent-curated</strong>Parents choose the shows. Kids explore freely within that library.</p>
+        </div>
+        <div class="product-feature">
+          <div class="product-feature-icon">{% include "icon-shield-check.svg" %}</div>
+          <p><strong>Private by design</strong>No social features, no tracking, no ads. Each child gets their own space.</p>
+        </div>
+        <div class="product-feature">
+          <div class="product-feature-icon">{% include "icon-star.svg" %}</div>
+          <p><strong>Made for kids</strong>Simple navigation, personal favorites, and a persistent player designed for small hands.</p>
+        </div>
+      </div>
       <p>
         <a href="https://family.zastrow.co" class="button button-outline">Try the alpha</a>
       </p>
