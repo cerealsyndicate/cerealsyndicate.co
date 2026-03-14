@@ -15,7 +15,7 @@ Podcast Crunch is a family podcast app where parents curate a library of shows a
 ### Common Questions
 
 **How do I create an account?**
-Podcast Crunch is currently in early development and available by invitation. Visit [family.zastrow.co](https://family.zastrow.co) to learn more.
+Podcast Crunch is currently in early development and available by invitation. Visit [podcast.cerealsyndicate.co](https://podcast.cerealsyndicate.co) to learn more.
 
 **How do I add podcasts?**
 Parents can add podcasts by searching or entering an RSS feed URL from the family dashboard.

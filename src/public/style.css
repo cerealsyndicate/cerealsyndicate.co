@@ -290,6 +290,11 @@ nav a {
   color: var(--text-secondary);
 }
 
+.section-glow p {
+  max-width: 65ch;
+  text-wrap: balance;
+}
+
 /* ============================================
    Product Card — Glassmorphism
    ============================================ */
