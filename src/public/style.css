@@ -338,7 +338,7 @@ nav a {
   margin-block-end: 1rem;
 
   & svg {
-    height: 2.5rem;
+    height: 5rem;
     width: auto;
   }
 }

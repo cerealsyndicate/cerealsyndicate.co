@@ -1,21 +1,21 @@
 ---
 title: Support
 permalink: /support/
-description: Get help with Podcast Crunch and other Cereal Syndicate products.
+description: Get help with Mini Cast and other Cereal Syndicate products.
 ---
 
 ## Get Help
 
 For questions, bug reports, or feature requests, email us at [{{ site.email }}](mailto:{{ site.email }}). We aim to respond within two business days.
 
-## Podcast Crunch
+## Mini Cast
 
-Podcast Crunch is a family podcast app where parents curate a library of shows and kids explore on their own.
+Mini Cast is a family podcast app where parents curate a library of shows and kids explore on their own.
 
 ### Common Questions
 
 **How do I create an account?**
-Podcast Crunch is currently in early development and available by invitation. Visit [podcast.cerealsyndicate.co](https://podcast.cerealsyndicate.co) to learn more.
+Mini Cast is currently in early development and available by invitation. Visit [minicast.co](https://minicast.co) to learn more.
 
 **How do I add podcasts?**
 Parents can add podcasts by searching or entering an RSS feed URL from the family dashboard.
