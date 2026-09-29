@@ -337,9 +337,11 @@ nav a {
   position: relative;
   margin-block-end: 1rem;
 
-  & svg {
+  & img {
+    display: block;
     height: 5rem;
     width: auto;
+    max-width: 100%;
   }
 }
 
