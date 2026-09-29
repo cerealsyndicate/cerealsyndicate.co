@@ -336,13 +336,12 @@ nav a {
 .product-logo {
   position: relative;
   margin-block-end: 1rem;
+}
 
-  & img {
-    display: block;
-    height: 5rem;
-    width: auto;
-    max-width: 100%;
-  }
+.product-logo img {
+  display: block;
+  width: 33.333%;
+  height: auto;
 }
 
 .product-badge {
